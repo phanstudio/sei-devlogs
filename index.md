@@ -8,7 +8,11 @@ This is the home page of my blog using the Slate theme on GitHub Pages.
 
 ## Recent Posts
 
-{% for post in site.posts %}
-- [{{ post.title }}]({{ post.url | relative_url }})
-  {{ post.excerpt }}
-{% endfor %}
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
