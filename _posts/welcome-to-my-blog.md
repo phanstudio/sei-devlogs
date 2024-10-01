@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Welcome to My Blog"
-date: 2024-10-01
 ---
 
 Hello and welcome to my new blog! This is my first post using GitHub Pages and Markdown.
