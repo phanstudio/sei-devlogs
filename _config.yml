@@ -1,3 +1,6 @@
 theme: jekyll-theme-slate
 title: Sei Devlog
 description: Welcome to my Sei Devlog.
+
+# Keep this line to show future dated posts (if any of your posts have future dates)
+future: true
