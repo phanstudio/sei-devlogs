@@ -24,7 +24,6 @@ Stay updated with my latest insights! Below are my most recent posts:
   {% for post in site.posts %}
     <li>
       <p><a href="{{ post.url | relative_url }}">{{ post.title }}</a></p>
-      <p>{{ post.excerpt }}</p>
     </li>
   {% endfor %}
 </ul>
