@@ -1,3 +1,6 @@
-theme: minima
+# theme: minima
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 title: Sei Devlog
-description: Welcome to my Sei Devlog, a comprehensive record of my journey exploring the Sei blockchain. This vlog chronicles the questions I have encountered along the way and provides clarity on key terms and concepts. By gathering all my resources in one accessible place, I aim to share insights, lessons learned, and valuable information that will benefit others on their own Sei journey. Join me as I navigate this exciting landscape, documenting my experiences and discoveries in the world of Sei!
+description: Welcome to my Sei Devlog.
