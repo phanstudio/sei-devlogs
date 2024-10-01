@@ -78,4 +78,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 Thank you for visiting my blog! I hope you find the content useful and engaging as we explore the world of Sei together.
-```
