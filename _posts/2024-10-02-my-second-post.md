@@ -1,5 +1,5 @@
 ---
-layout: defualt
+layout: default
 title: "My Second Blog Post"
 date: 2024-10-02
 ---
