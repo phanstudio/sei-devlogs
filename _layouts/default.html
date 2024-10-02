@@ -24,16 +24,11 @@
         <li>
           <h3>Recent Posts</h3>
           <ul>
-            {% raw %}{% for post in site.posts limit:5 %}
-              <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-            {% endfor %}{% endraw %}
-          </ul>
-          <ul>
             {% for post in site.posts limit:5 %}
               <li>
                 <p><a href="{{ post.url | relative_url }}">{{ post.title }}</a></p>
               </li>
-            {% endfor %}
+            {% endfor %} {% endraw %}
           </ul>
         </li>
       </ul>
