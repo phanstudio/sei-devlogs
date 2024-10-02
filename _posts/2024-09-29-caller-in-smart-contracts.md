@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "whats a caller in smart contracts and explain calls"
+title: "Whats a caller in smart contracts and explain calls"
 date: 2024-09-29
 ---
 
