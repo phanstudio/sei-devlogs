@@ -67,11 +67,12 @@
     <script>
       document.getElementById('nav-toggle').addEventListener('click', function() {
         document.getElementById('nav-drawer').style.width = '250px';
-        this.textContent = '&#10539;';
+        this.textContent = String.fromCharCode(10539);
       });
 
       document.getElementById('close-nav').addEventListener('click', function() {
         document.getElementById('nav-drawer').style.width = '0';
+        this.textContent = String.fromCharCode(9776);
       });
     </script>
   </body>
