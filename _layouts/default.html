@@ -66,19 +66,24 @@
     <!-- Navigation Drawer Script -->
     <script>
       var toggle = true;
-      document.getElementById('nav-toggle').addEventListener('click', function() {
-        if toggle == true{
-          document.getElementById('nav-drawer').style.width = '250px';
-          this.textContent = String.fromCharCode(10539);
-        }else{
-          document.getElementById('nav-drawer').style.width = '0';
-          this.textContent = String.fromCharCode(9776);
-        }
-      });
-
+      var navDrawer = document.getElementById('nav-drawer');
+  
+      function toggleNavDrawer() {
+          if (!navDrawer) return;
+          if (toggle) {
+              navDrawer.style.width = '250px';
+              document.getElementById('nav-toggle').textContent = String.fromCharCode(10539);
+          } else {
+              navDrawer.style.width = '0';
+              document.getElementById('nav-toggle').textContent = String.fromCharCode(9776);
+          }
+          toggle = !toggle;
+      }
+  
+      document.getElementById('nav-toggle').addEventListener('click', toggleNavDrawer);
       document.getElementById('close-nav').addEventListener('click', function() {
-        document.getElementById('nav-drawer').style.width = '0';
-        this.textContent = String.fromCharCode(9776);
+          navDrawer.style.width = '0';
+          document.getElementById('nav-toggle').textContent = String.fromCharCode(9776);
       });
     </script>
   </body>
