@@ -28,6 +28,13 @@
               <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
             {% endfor %}{% endraw %}
           </ul>
+          <ul>
+            {% for post in site.posts limit:5 %}
+              <li>
+                <p><a href="{{ post.url | relative_url }}">{{ post.title }}</a></p>
+              </li>
+            {% endfor %}
+          </ul>
         </li>
       </ul>
     </nav>
