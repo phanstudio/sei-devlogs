@@ -21,7 +21,7 @@ In this devlog, I cover a wide range of topics related to the Sei blockchain, in
 Stay updated with my latest insights! Below are my most recent posts:
 
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.posts limit:5 %}
     <li>
       <p><a href="{{ post.url | relative_url }}">{{ post.title }}</a></p>
     </li>
