@@ -18,11 +18,11 @@ Currently, I am diving into the exciting world of **Web3**. This exploration has
 
 Throughout my journey, I have worked on several projects that showcase my skills and interests. Here are a few highlights:
 
-- **[Python App](https://github.com/yourusername/python-app)**: A simple yet powerful application that demonstrates my proficiency in Python and its frameworks. This project showcases my ability to solve problems effectively and efficiently.
+- **[Flet Reader](https://github.com/phanstudio/flet-reader)**: A simple yet powerful application that demonstrates my proficiency in Python and its frameworks. This project showcases my ability to solve problems effectively and efficiently.
 
-- **[Web2 Portfolio](https://github.com/yourusername/web2-portfolio)**: A dynamic portfolio website built using HTML, CSS, and JavaScript. This project reflects my skills in front-end development and my understanding of user experience design.
+- **[Web2 Portfolio](#)**: A dynamic portfolio website built using HTML, CSS, and JavaScript. This project reflects my skills in front-end development and my understanding of user experience design.
 
-- **[Web3 dApp](https://github.com/yourusername/web3-dapp)**: An early exploration into decentralized applications, this project illustrates my growing knowledge of blockchain technology and smart contracts. I aim to build more complex dApps as I continue to learn.
+- **[Web3 dApp](#)**: An early exploration into decentralized applications, this project illustrates my growing knowledge of blockchain technology and smart contracts. I aim to build more complex dApps as I continue to learn.
 
 ## Looking Ahead
 
