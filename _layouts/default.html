@@ -23,16 +23,10 @@
       <ul>
         <li><a href="{{ '/' | relative_url }}">Home</a></li>
         <li><a href="{{ '/about/' | relative_url }}">About</a></li>
-        <li>
-          <h3>Recent Posts</h3>
-          <ul>
-            {% for post in site.posts limit:5 %}
-              <li>
-                <p><a href="{{ post.url | relative_url }}">{{ post.title }}</a></p>
-              </li>
-            {% endfor %}
-          </ul>
-        </li>
+        <h3>Recent Posts</h3>
+        {% for post in site.posts limit:5 %}
+          <p><a href="{{ post.url | relative_url }}">{{ post.title }}</a></p>
+        {% endfor %}
       </ul>
     </nav>
     
