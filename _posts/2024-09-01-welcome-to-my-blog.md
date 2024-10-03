@@ -4,9 +4,6 @@ title: "Welcome to My Blog"
 date: 2024-09-01
 ---
 
-# {{ page.title }}
-# Welcome to My Blog!
-
 Hello everyone! 👋
 
 I’m thrilled to welcome you to my blog, a space where I’ll be sharing my thoughts, experiences, and insights as I navigate the fascinating world of technology and development. This marks my first venture into blogging with **GitHub Pages** and **Markdown**, and I can’t wait to embark on this journey with you.
