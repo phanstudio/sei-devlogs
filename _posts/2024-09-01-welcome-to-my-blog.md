@@ -4,7 +4,7 @@ title: "Welcome to My Blog"
 date: 2024-09-01
 ---
 
-{{ title }}
+# {{ page.title }}
 # Welcome to My Blog!
 
 Hello everyone! 👋
