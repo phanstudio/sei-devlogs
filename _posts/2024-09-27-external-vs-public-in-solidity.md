@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "External Vs Public in Solidity"
 date: 2024-09-27
 ---

@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: blog
 title: "Different types of storage"
-date: 2024-10-02
+date: 2024-09-02
 ---
 
 In Solidity, the programming language used for developing smart contracts on the Ethereum blockchain, there are three main types of storage: **storage**, **memory**, and **stack**. Each type has its own use cases, strengths, and weaknesses. Let’s break them down:

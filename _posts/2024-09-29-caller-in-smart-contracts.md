@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Whats a caller in smart contracts and explain calls"
 date: 2024-09-29
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Memory in solidity"
 date: 2024-09-28
 ---
