@@ -64,3 +64,71 @@
     font-size: 18px;
   }
 }
+
+/* Posts Section */
+.posts-section {
+  padding: 20px;
+  text-align: center;
+}
+
+.posts-section header {
+  margin-bottom: 20px;
+}
+
+.post-cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.post-card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-10px);
+}
+
+.post-card article {
+  text-align: left;
+}
+
+.post-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.post-card p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.post-card .read-more {
+  display: inline-block;
+  font-weight: bold;
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.post-card .read-more:hover {
+  color: #0056b3;
+}
+
+/* Fallback for no posts */
+.no-posts {
+  font-size: 1.1rem;
+  color: #555;
+  text-align: center;
+}
+
+
+
