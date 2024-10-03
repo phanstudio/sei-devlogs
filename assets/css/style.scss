@@ -159,11 +159,12 @@
   overflow-x: hidden;
   transition: width 0.3s ease;
   z-index: 10;
-  padding: 0 15px;
+  padding: 0px;
 }
 
 .nav-drawer.open {
   width: 250px;
+  padding: 0 15px;
 }
 
 .nav-header {
