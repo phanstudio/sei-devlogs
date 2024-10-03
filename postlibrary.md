@@ -11,18 +11,19 @@ permalink: /posts/
     <p>Stay updated with my latest insights! Below are my most recent posts:</p>
   </header>
 
-  <ul class="post-list">
+  <div class="post-cards-container">
     {% if site.posts.size > 0 %}
       {% for post in site.posts %}
-        <li class="post-item">
+        <div class="post-card">
           <article>
             <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
             <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+            <a class="read-more" href="{{ post.url | relative_url }}">Read more</a>
           </article>
-        </li>
+        </div>
       {% endfor %}
     {% else %}
-      <li class="no-posts">No posts available yet. Check back soon!</li>
+      <p class="no-posts">No posts available yet. Check back soon!</p>
     {% endif %}
-  </ul>
+  </div>
 </section>
