@@ -84,27 +84,59 @@
 
     <!-- Navigation Drawer Script -->
     <script>
+
       var toggle = true;
       var navDrawer = document.getElementById('nav-drawer');
-  
-      function toggleNavDrawer() {
-          if (!navDrawer) return;
-          if (toggle) {
-              navDrawer.style.width = '250px';
-              document.getElementById('nav-toggle').textContent = String.fromCharCode(10539);
-          } else {
-              navDrawer.style.width = '0';
-              document.getElementById('nav-toggle').textContent = String.fromCharCode(9776);
-          }
-          toggle = !toggle;
+      var drawerOverlay = document.getElementById('drawer-overlay');
+      var navToggle = document.getElementById('nav-toggle');
+      var closeNav = document.getElementById('close-nav');
+      
+      // Open drawer and overlay
+      function openDrawer() {
+        navDrawer.classList.add('open');
+        drawerOverlay.classList.add('visible');
       }
-  
-      document.getElementById('nav-toggle').addEventListener('click', toggleNavDrawer);
-      document.getElementById('close-nav').addEventListener('click', function() {
-          navDrawer.style.width = '0';
-          document.getElementById('nav-toggle').textContent = String.fromCharCode(9776);
-          toggle = !toggle;
+      
+      // Close drawer and overlay
+      function closeDrawer() {
+        navDrawer.classList.remove('open');
+        drawerOverlay.classList.remove('visible');
+      }
+      
+      // Event listeners
+      navToggle.addEventListener('click', openDrawer);
+      closeNav.addEventListener('click', closeDrawer);
+      drawerOverlay.addEventListener('click', closeDrawer);
+      
+      // Close drawer on pressing 'Esc'
+      document.addEventListener('keydown', function(event) {
+        if (event.key === "Escape") {
+          closeDrawer();
+        }
       });
+
+      
+      // var toggle = true;
+      // var navDrawer = document.getElementById('nav-drawer');
+  
+      // function toggleNavDrawer() {
+      //     if (!navDrawer) return;
+      //     if (toggle) {
+      //         navDrawer.style.width = '250px';
+      //         document.getElementById('nav-toggle').textContent = String.fromCharCode(10539);
+      //     } else {
+      //         navDrawer.style.width = '0';
+      //         document.getElementById('nav-toggle').textContent = String.fromCharCode(9776);
+      //     }
+      //     toggle = !toggle;
+      // }
+  
+      // document.getElementById('nav-toggle').addEventListener('click', toggleNavDrawer);
+      // document.getElementById('close-nav').addEventListener('click', function() {
+      //     navDrawer.style.width = '0';
+      //     document.getElementById('nav-toggle').textContent = String.fromCharCode(9776);
+      //     toggle = !toggle;
+      // });
     </script>
   </body>
 </html>
