@@ -71,6 +71,19 @@
 
 
 /* Navigation Drawer Styles */
+.nav-toggle {
+  font-size: 30px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  // position: absolute;
+  // top: 10px;
+  // left: 10px;
+  margin-left: 50px;
+}
+
 /* Adjust main content when nav is open */
 @media screen and (max-width: 768px) {
   .nav-drawer {
