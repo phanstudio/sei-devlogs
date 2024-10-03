@@ -8,6 +8,8 @@ navigation:
     url: /
   - title: About
     url: /about/
+  - title: Posts
+    url: /posts/
 
 # Keep this line to show future dated posts (if any of your posts have future dates)
-future: true
+# future: true
