@@ -13,24 +13,6 @@
 
   <body>
     <!-- Navigation Drawer -->
-<!--     <nav id="nav-drawer" class="nav-drawer">
-      <div style="display: flex;justify-content: space-between;flex-direction: row;align-items: center;">
-        <h2>Navigation</h2>
-        <button id="close-nav" class="close-nav" style="background-color: transparent;color: buttonface;border-width: inherit;">
-          &times;
-        </button>
-      </div>
-      <ul>
-        <li><a href="{{ '/' | relative_url }}">Home</a></li>
-        <li><a href="{{ '/about/' | relative_url }}">About</a></li>
-        <li><a href="{{ '/posts/' | relative_url }}">Posts</a></li>
-        <h3>Recent Posts</h3>
-        {% for post in site.posts limit:5 %}
-          <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-        {% endfor %}
-      </ul>
-    </nav> -->
-    <!-- Navigation Drawer -->
     <div id="drawer-overlay" class="drawer-overlay"></div>
     <nav id="nav-drawer" class="nav-drawer">
       <div class="nav-header">
@@ -48,7 +30,6 @@
       </ul>
     </nav>
 
-    
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
@@ -114,29 +95,6 @@
           closeDrawer();
         }
       });
-
-      
-      // var toggle = true;
-      // var navDrawer = document.getElementById('nav-drawer');
-  
-      // function toggleNavDrawer() {
-      //     if (!navDrawer) return;
-      //     if (toggle) {
-      //         navDrawer.style.width = '250px';
-      //         document.getElementById('nav-toggle').textContent = String.fromCharCode(10539);
-      //     } else {
-      //         navDrawer.style.width = '0';
-      //         document.getElementById('nav-toggle').textContent = String.fromCharCode(9776);
-      //     }
-      //     toggle = !toggle;
-      // }
-  
-      // document.getElementById('nav-toggle').addEventListener('click', toggleNavDrawer);
-      // document.getElementById('close-nav').addEventListener('click', function() {
-      //     navDrawer.style.width = '0';
-      //     document.getElementById('nav-toggle').textContent = String.fromCharCode(9776);
-      //     toggle = !toggle;
-      // });
     </script>
   </body>
 </html>
