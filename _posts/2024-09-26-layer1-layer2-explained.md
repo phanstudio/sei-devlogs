@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: "Layer 1 and Layer 2"
 date: 2024-09-26
 ---
