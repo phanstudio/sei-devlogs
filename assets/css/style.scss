@@ -173,3 +173,18 @@
   visibility: visible;
   opacity: 1;
 }
+
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo{
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  border-radius: 5px;
+}
