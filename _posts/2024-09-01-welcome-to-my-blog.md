@@ -26,4 +26,7 @@ Thank you for being here, and stay tuned for more exciting content coming your w
 
 Happy reading!
 
+> [!TIP]
+we are accept as much devs who want to cotribute to the project
+
 ---
